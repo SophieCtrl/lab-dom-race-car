@@ -10,7 +10,6 @@ class Player extends Component {
     // Update player's car position based on directionX and directionY
     this.left += this.directionX;
     this.top += this.directionY;
-    debugger;
 
     // Ensure the player's car stays within the game screen
     if (this.left < 10) {

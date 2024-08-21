@@ -73,6 +73,7 @@ class Game {
     // when there is no other obstacles on the screen
     if (Math.random() > 0.98 && this.obstacles.length < 1) {
       this.obstacles.push(new Obstacle(this.gameScreen));
+      console.log("object created");
     }
   }
 
